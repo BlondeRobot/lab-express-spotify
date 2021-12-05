@@ -1,0 +1,17 @@
+<h1>Search for your fav artist here!</h1>
+<!-- Simple form which will send a POST request -->
+
+<div id="container">
+    {{!-- <img id="background-img" src="/images/spotify-background.jpeg"> --}}
+
+    <div id='search'>
+        <form action="/artist-search" method="GET">
+    
+            <label>
+                <input type="text" name="artistName" />
+            </label>
+    
+            <button type="submit">Search for an Artist</button>
+        </form>
+    </div>
+</div>    
